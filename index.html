@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qur'an on Human Rights</title>
-    <style>
+   <style>
         body {
             font-family: 'Times New Roman', Times, serif; /* Serif font for a sense of tradition */
             margin: 0;
             padding: 0;
-            background-color:#f5f5f5; /* Soft off-white background */
-            color:#664228; /* Deep, rich brown for text */
+            background-color: #f5f5f5; /* Soft off-white background */
+            color: #664228; /* Deep, rich brown for text */
         }
 
         header {
-            background-color: 371211;
+            background-color: #371211; /* Fix hexadecimal color value */
             color: #fff;
             padding: 20px;
             text-align: center;
+            
         }
 
         .container {
@@ -29,7 +30,7 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        h1 {
+        h1, h2 {
             color: #664228; /* Deep, rich brown for headings */
             text-align: center;
         }
@@ -56,6 +57,27 @@
             padding: 10px;
             border-radius: 4px;
             margin-bottom: 20px;
+        }
+
+        blockquote {
+            background: #f9f9f9;
+            border-left: 10px solid #b8860b; /* Dark goldenrod for blockquote border */
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+        }
+
+        blockquote:before {
+            color: #b8860b; /* Dark goldenrod for quotation marks */
+            content: open-quote;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.25em;
+            vertical-align: -0.4em;
+        }
+
+        blockquote p {
+            display: inline;
         }
     </style>
 </head>
